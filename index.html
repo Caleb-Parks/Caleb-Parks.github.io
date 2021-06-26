@@ -4,45 +4,61 @@
 
   <head>
     <meta charset=”utf-8”>
-    <title>Cahleeb's Sitey</title>
-    <style>
-      html {
+    <title>Site Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> 
+      /*MOBILE*/
+      @media screen and (max-width:670px) {
+        html {
         background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        font-family: "Arial", sans-serif;
+        font-size: 17px;
+        line-height: 20px;
+        }
       }
+      /*PC HALF SCREEN*/
+      @media screen and (min-width:750px) {
+        html {
+        background-color: rgb(0, 0, 50);
+        color: rgb(255, 255, 255);
+        font-family: "Arial", sans-serif;
+        font-size: 14px;
+        line-height: 80px;
+        }
+      }
+
       #TitleText {
+        font-family: "Copperplate", sans-serif;
         background-color: rgb(0, 20, 20);
         color: rgb(0, 255, 255);
-        font-family: “Arial”, sans-serif;
-        font-size: 3em;
-        line-height: 3em;
+        font-size: 2.5em;
+        line-height: 2em;
         text-align: center;
-        font-weight: bold;
+        font-weight: normal;
       }
       #Descr {
-        color: rgb(0, 255, 255);
-        font-family: “Arial”, sans-serif;
+        color: rgb(200, 255, 255);
         font-size: 1em;
         line-height: 1em;
         text-align: center;
+        font-style: italic;
       }
       h2 {
-        color: rgb(255, 255, 255);
-        font-family: “Arial”, sans-serif;
+        color: rgb(0, 255, 255);
         font-size: 1em;
-        line-height: 1em;
         text-align: left;
       }
       ul {
-        color: rgb(255, 255, 255);
-        font-family: “Arial”, sans-serif;
-        font-size: 1em;
-        line-height: 1em;
+        color: rgb(0, 255, 255);
         text-align: left;
+        line-height: 2em;
       }
       a {
-        color: rgb(255, 255, 0);
+        color: rgb(255, 255, 255);
         text-decoration: none;
       }
+      
     </style>
 
   </head>
@@ -50,11 +66,11 @@
   <body>
     
     <h1 id="TitleText">
-      Testing 123<br>Testing ABC
+      Site Index
     </h1>
 
     <p id="Descr">
-      DTesting 123<br>DTesting ABC
+      HTML/CSS
     </p>
 
     <h2 id="List1Head">
@@ -79,6 +95,30 @@
       </li>
     </ul>
 
+    <h2 id="List2Head">
+      List1
+    </h2>
+
+    <ul id="List2">
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Pie" target="_blank">Wiki Pie Article1</a>
+      </li>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Pie" target="_blank">Wiki Pie Article2</a>
+      </li>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Pie" target="_blank">Wiki Pie Article3</a>
+      </li>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Pie" target="_blank">Wiki Pie Article4</a>
+      </li>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Pie" target="_blank">Wiki Pie Article5</a>
+      </li>
+    </ul>
+
+
+    <!-- End of Body -->
   </body>
 
 </html>
